@@ -1,0 +1,11 @@
+bobbyc@queen.fas.sfu.ca
+
+source start  <-- specifies cplex locations and g++ location
+make iocode <-- name of the file (can be changed in Makefile)
+source job <-- just runs ./iocode
+make clean <-- do this everytime you compile
+qstat
+checkjob _______ <-- job number
+________.o  <-- the file in working folder that contains outputs
+qsub job -l walltime=4:00:00 -l mem=20gb
+      ^--- this is the the run script file

@@ -1,0 +1,228 @@
+// revesre after stock
+void HeurSolver::MIP_Heuristic(){
+	cout << endl << "### The Iterative MIP (with intial solution) is starting....." << endl;
+	srand (time(NULL));
+	time_t start, end;
+	time(&start);
+	multiset<TS> tabu_table;
+	IloEnv env;
+	solution lp = SolveLP();
+	solution initial = CreateInitialSolution(lp);
+	cout << "The LP solution is :" << lp.obj_value << endl;
+	cout << "The initial solution value is " << initial.obj_value << endl;
+	vector<int> init_ordering = MatrixToOrdering(lp.sol_vector, R.Candidates());
+
+	vector<int> partial_order;	
+	for(int i =0; i < 50; i++)
+		partial_order.push_back(init_ordering[i]);
+	vector<vector<int> > subranking = GetSubRanking(partial_order);
+	IloNumArray st = OrderToNumArray(env,partial_order);
+	vector<int> temp = SolveSubProblem(subranking, partial_order,st);
+
+	partial_order.clear();
+	subranking.clear();
+	for(int i =0; i < 50; i++)
+		partial_order.push_back(init_ordering[i+50]);
+	subranking = GetSubRanking(partial_order);
+	IloNumArray st_1 = OrderToNumArray(env,partial_order);
+	vector<int> temp_1 = SolveSubProblem(subranking, partial_order,st_1);
+
+	vector<int> temp_2;
+	temp_2.reserve( temp.size() + temp_1.size()); // preallocate memory
+	temp_2.insert( temp_2.end(), temp.begin(), temp.end() );
+	temp_2.insert( temp_2.end(), temp_1.begin(), temp_1.end() );
+	cout << "combine  ordeing value before is :  " << OrderingValue(temp_2) << endl;
+
+	partial_order.clear();
+	subranking.clear();
+	for(int i = 20; i < 80; i++)
+		partial_order.push_back(temp_2[i]);
+	subranking = GetSubRanking(partial_order);
+	IloNumArray st_3 = OrderToNumArray(env,partial_order);
+	vector<int> temp_3 = SolveSubProblem(subranking, partial_order,st_3);
+	for(int i = 0; i < 60; i++)
+		temp_2[i+20] = temp_3[i];
+	temp_3.clear();
+	temp_3 = temp_2;
+
+	//vector<int> temp_2= init_ordering;
+	//vector<vector<int> > subranking;
+	//local search second phase
+	int iteration = 0;								//number of local search iteration
+	int k = 3;										// how many varibales are relexaed in subproblem
+	int p = 2;										// use for size of the subproblem
+	int seq_size= 6 ;								// size of  the subproblem which is p*k
+	int max_value = -1;								// the max obj function value found so far
+	int improve_counter = 0;						// keep counter to see in how many past iteratio we did not have any improvement
+	int tabu_counter = 0;							// keep number of solution currently in tabue table
+	int tabu_table_cap = 10;						//number of solution kept in tabu table
+	int seq_size_treshold = 60;						// an upper boundof the size of subrpoblem size(partial_order size)
+	int g = 0;										// indicate which rule to select when we are stocked in the local optima
+	const int G = 4;								// shows the max numebr of rules to escape from local minima
+	bool flag = false;								// a flag to see if all the vars in subproblem should be free or kth of them (true means all of them)
+	const int all_vars_free_treshold = 25;			// treshold on the size of suboroblem to see if we can solve it with all the vars free
+	solve_status status = fully;
+	vector<int> random_index;
+	ofstream file("../data/random_index.txt");
+	while(iteration++ < 1000)
+	{
+		//set the size of the subproblem
+	//	seq_size = p*k;
+		cout << endl << " and seq_size is : " << seq_size << endl;
+		if (seq_size > 56){
+			break;
+			seq_size = 60;	//if the subproblem size is more than 56 set it to 60 for speed up
+		}
+		partial_order.clear();
+		subranking.clear();
+		// randomly pick the starting point of teh subproblem
+		int indx_begin = rand()%(R.Candidates() - seq_size);
+		random_index.push_back(indx_begin);
+		//pick the subproblem
+		for(int i = 0; i < seq_size; i++)
+			partial_order.push_back(temp_2[i+indx_begin]);
+		//cout << endl << "partial is " << partial_order << endl;
+		subranking = GetSubRanking(partial_order);
+		IloNumArray start_val = OrderToNumArray(env,partial_order);
+		vector<int> ls = LocalSearch(subranking, partial_order, start_val, status,p);
+		//first method
+		vector<int> v(temp_2.begin(), temp_2.end());
+		for(int i = 0; i < seq_size; i++)
+			v[i+indx_begin] = ls[i];
+		int value = OrderingValue(v);
+		if(value > max_value){
+			for(int i = 0; i < seq_size; i++)
+				temp_2[i+indx_begin] = ls[i];
+			max_value = value;
+			improve_counter =0;
+			TS t(value, temp_2);
+			if (tabu_counter == tabu_table_cap){
+				multiset<TS>::iterator it = tabu_table.begin();
+				tabu_table.erase(it);
+				tabu_counter--;
+			}
+			tabu_table.insert(t);
+			tabu_counter++;
+		}
+		else
+			improve_counter++;
+		//need to change the rule
+		if (improve_counter == 100){
+			k++;
+			p++;
+			seq_size += 2;		
+		}
+
+			cout << endl << " The solution after iteration " << iteration << " is "  << value << endl;
+		cout << endl << " The best solution found up to iteration " << iteration << " is "  << max_value << endl;
+		//	cout << "tabu table is : " << tabu_table << end;
+	}
+
+
+	iteration = 0;								//number of local search iteration
+	 k = 3;										// how many varibales are relexaed in subproblem
+	 p = 2;										// use for size of the subproblem
+	 max_value = -1;								// the max obj function value found so far
+	 improve_counter = 0;						// keep counter to see in how many past iteratio we did not have any improvement
+	 seq_size_treshold = 60;						// an upper boundof the size of subrpoblem size(partial_order size)
+	 status = fully;
+	// reverse te temp_2
+	 reverse(temp_2.begin(),temp_2.end());
+	cin.get();
+	while(iteration++ < 3000)
+	{
+		//set the size of the subproblem
+		seq_size = p*k;
+		cout << endl << " and seq_size is : " << seq_size << endl;
+		if (seq_size > 56)
+			seq_size = 60;	//if the subproblem size is more than 56 set it to 60 for speed up
+
+		partial_order.clear();
+		subranking.clear();
+		// randomly pick the starting point of teh subproblem
+		int indx_begin = rand()%(R.Candidates() - seq_size);
+		random_index.push_back(indx_begin);
+		//pick the subproblem
+		for(int i = 0; i < seq_size; i++)
+			partial_order.push_back(temp_2[i+indx_begin]);
+		//cout << endl << "partial is " << partial_order << endl;
+		subranking = GetSubRanking(partial_order);
+		IloNumArray start_val = OrderToNumArray(env,partial_order);
+		vector<int> ls = LocalSearch(subranking, partial_order, start_val, status,p);
+		//first method
+		vector<int> v(temp_2.begin(), temp_2.end());
+		for(int i = 0; i < seq_size; i++)
+			v[i+indx_begin] = ls[i];
+		int value = OrderingValue(v);
+		if(value > max_value){
+			for(int i = 0; i < seq_size; i++)
+				temp_2[i+indx_begin] = ls[i];
+			max_value = value;
+			improve_counter =0;
+			TS t(value, temp_2);
+			if (tabu_counter == tabu_table_cap){
+				multiset<TS>::iterator it = tabu_table.begin();
+				tabu_table.erase(it);
+				tabu_counter--;
+			}
+			tabu_table.insert(t);
+			tabu_counter++;
+		}
+		else
+			improve_counter++;
+		//need to change the rule
+		if (improve_counter == 80){
+			k++;
+			p++;	
+		}
+		cout << endl << " The solution after iteration " << iteration << " is "  << value << endl;
+		cout << endl << " The best solution found up to iteration " << iteration << " is "  << max_value << endl;
+		//	cout << "tabu table is : " << tabu_table << end
+	}
+
+	cout << "combine  ordeing value after last step  is : " << OrderingValue(temp_2) << endl;
+	vector<vector<int> > mat1 = OrderToMatrix(temp_2);
+	int s = 0;
+	for(int i = 0; i < R.Candidates(); i++)
+		for(int j =0; j < R.Candidates(); j++)
+			s+= mat1[i][j]*R.Get_m_Array()[i][j];
+	cout << "the matrix multiply sum is = " << s << endl;
+	
+
+//	LPHeuristic(lp, temp_2);
+cout << "combine  ordeing value after last step  is : " << OrderingValue(temp_2) << endl;
+
+	/*
+	//solve by cplex improvement
+	IloNumArray start_val = OrderToNumArray(env,init_ordering);
+	vector<int> ls = ImproveByCplex(init_ordering, start_val);
+	cout << "improveBYcplex is " << OrderingValue(ls) << endl;
+
+	vector<vector<int> > mat = OrderToMatrix(ls);
+	int s = 0;
+	for(int i = 0; i < R.Candidates(); i++)
+		for(int j =0; j < R.Candidates(); j++)
+			s+= mat[i][j]*R.Get_m_Array()[i][j];
+	cout << "the matrix multiply sum is = " << s << endl;
+	*/
+	vector<vector<int> > mat = OrderToMatrix(temp_2);
+	 s = 0;
+	for(int i = 0; i < R.Candidates(); i++)
+		for(int j =0; j < R.Candidates(); j++)
+			s+= mat[i][j]*R.Get_m_Array()[i][j];
+	cout << "the matrix multiply sum is = " << s << endl;
+	
+
+	cout << "init ordering value is : " << OrderingValue(init_ordering) << endl;
+	cout << "init ordering is : " << endl << init_ordering << endl;
+	cout << "combine  ordeing value befor the local search was : " << OrderingValue(temp_3) << endl;
+	cout << "combine  ordeing value after last step  is : " << OrderingValue(temp_2) << endl;
+	cout << " The final ordeering is : " << endl << temp_2 << endl;
+	cout << "The best solution found is : " << max_value << endl;
+	file << random_index << endl;
+	file.close();
+	//	time(&end);
+	//	double run_time = difftime(end, start);
+	//	cout << "the running time is : " << run_time << endl; 
+	cout << "### The Iterative LP Roundig is ending " << endl;
+}

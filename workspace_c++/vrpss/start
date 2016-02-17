@@ -1,0 +1,6 @@
+#PBS -S /bin/sh
+#PBS -l nodes=1,ncpus=1,mem=1g,walltime=1:00:00
+
+source /hpc/software/etc/colony-login
+module load COMPILERS/GNU/4.4.3
+module load TOOLS/CPLEX/12.5

@@ -1,0 +1,1603 @@
+**** Instance #0 ********
+Ranking input is :
+9
+6
+3
+1 4 6 4 4 2 1 6 3 
+4 5 2 3 1 1 3 4 2 
+3 1 3 6 2 6 6 1 5 
+5 3 5 2 5 4 5 2 1 
+6 6 4 5 6 3 4 5 4 
+2 2 1 1 3 5 2 3 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #1 ********
+Ranking input is :
+9
+6
+3
+1 5 3 5 4 1 4 5 5 
+2 2 5 3 5 4 2 4 2 
+6 4 4 6 1 5 3 1 4 
+5 1 2 2 3 2 1 6 1 
+3 6 1 4 2 6 5 3 3 
+4 3 6 1 6 3 6 2 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #2 ********
+Ranking input is :
+9
+6
+3
+3 5 2 5 5 4 3 3 2 
+6 1 4 6 6 5 6 1 3 
+4 4 6 2 3 2 4 5 5 
+5 2 1 1 4 6 5 6 1 
+1 6 3 3 2 1 1 4 4 
+2 3 5 4 1 3 2 2 6 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #3 ********
+Ranking input is :
+9
+6
+3
+3 5 3 5 5 4 2 5 6 
+2 3 4 1 1 5 1 4 5 
+4 6 2 2 2 1 5 3 3 
+1 2 6 6 4 2 6 2 2 
+5 4 1 4 6 6 3 1 1 
+6 1 5 3 3 3 4 6 4 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #4 ********
+Ranking input is :
+9
+6
+3
+2 1 3 4 6 4 6 5 4 
+3 5 5 2 3 6 2 4 5 
+5 3 4 6 2 3 4 1 3 
+1 2 6 3 5 1 1 6 2 
+6 6 1 5 1 5 3 2 6 
+4 4 2 1 4 2 5 3 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #5 ********
+Ranking input is :
+9
+6
+3
+5 2 2 3 2 2 5 6 6 
+4 1 6 5 1 6 1 4 3 
+6 5 3 4 6 4 6 5 5 
+2 3 4 6 5 5 4 2 4 
+3 6 1 2 3 3 3 3 1 
+1 4 5 1 4 1 2 1 2 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #6 ********
+Ranking input is :
+9
+6
+3
+5 1 4 6 3 1 1 3 1 
+3 3 5 1 5 5 2 1 3 
+1 4 3 2 1 6 3 6 4 
+4 6 6 3 2 2 6 2 6 
+6 5 2 5 6 3 4 5 2 
+2 2 1 4 4 4 5 4 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #7 ********
+Ranking input is :
+9
+6
+3
+5 6 3 3 6 4 4 3 3 
+3 4 1 4 5 3 2 4 1 
+4 5 4 6 3 5 3 2 6 
+1 1 5 1 1 2 1 6 4 
+6 3 6 5 2 6 5 1 2 
+2 2 2 2 4 1 6 5 5 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #8 ********
+Ranking input is :
+9
+6
+3
+5 2 1 5 1 6 3 1 2 
+4 5 2 2 5 1 5 3 6 
+1 4 4 4 6 4 4 4 4 
+6 3 3 6 3 3 6 2 5 
+2 6 5 3 2 2 1 6 1 
+3 1 6 1 4 5 2 5 3 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #9 ********
+Ranking input is :
+9
+6
+3
+3 6 3 3 3 3 2 1 4 
+5 2 4 2 5 4 4 4 2 
+6 4 2 6 2 5 3 2 3 
+1 1 1 1 1 1 6 6 6 
+2 3 5 5 6 2 5 5 1 
+4 5 6 4 4 6 1 3 5 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #10 ********
+Ranking input is :
+9
+6
+3
+5 6 5 2 2 1 6 2 6 
+1 1 4 6 5 3 5 5 5 
+2 2 1 1 4 2 3 4 4 
+3 5 6 3 6 4 1 6 3 
+6 3 2 4 3 5 2 1 2 
+4 4 3 5 1 6 4 3 1 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #11 ********
+Ranking input is :
+9
+6
+3
+2 3 5 3 6 3 6 6 1 
+6 2 6 6 2 1 1 1 4 
+5 5 4 2 1 4 5 4 3 
+1 6 2 5 5 2 3 3 2 
+4 1 1 4 4 5 2 2 6 
+3 4 3 1 3 6 4 5 5 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #12 ********
+Ranking input is :
+9
+6
+3
+2 6 4 1 2 2 2 4 3 
+3 2 6 6 5 5 1 5 1 
+4 5 5 5 4 6 3 2 5 
+6 3 1 2 3 1 6 6 4 
+1 1 2 4 1 4 5 1 2 
+5 4 3 3 6 3 4 3 6 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #13 ********
+Ranking input is :
+9
+6
+3
+1 5 6 2 4 1 5 6 3 
+5 6 4 3 3 3 1 1 5 
+3 4 3 4 5 2 2 5 4 
+2 3 5 6 6 6 3 3 2 
+6 1 1 1 2 4 6 2 1 
+4 2 2 5 1 5 4 4 6 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #14 ********
+Ranking input is :
+9
+6
+3
+5 6 4 5 5 3 5 1 2 
+4 5 6 6 3 1 3 2 5 
+2 2 3 2 1 4 2 6 1 
+6 4 1 1 2 5 4 5 6 
+3 1 5 4 4 6 1 3 4 
+1 3 2 3 6 2 6 4 3 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #15 ********
+Ranking input is :
+9
+6
+3
+2 5 2 1 1 1 2 1 3 
+6 6 4 2 3 3 4 4 2 
+4 4 3 5 5 4 6 2 1 
+5 2 6 4 6 2 3 6 4 
+1 3 5 6 2 5 1 3 6 
+3 1 1 3 4 6 5 5 5 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #16 ********
+Ranking input is :
+9
+6
+3
+6 4 5 1 5 4 4 1 1 
+3 5 4 6 1 2 1 5 6 
+2 1 1 3 6 6 5 3 5 
+1 6 6 4 3 1 3 2 3 
+4 3 2 5 4 3 2 4 2 
+5 2 3 2 2 5 6 6 4 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #17 ********
+Ranking input is :
+9
+6
+3
+1 4 5 3 6 5 2 4 2 
+5 5 4 6 2 2 5 1 3 
+4 1 2 2 4 6 4 5 5 
+2 3 3 5 5 1 6 6 6 
+3 2 6 4 3 4 3 3 4 
+6 6 1 1 1 3 1 2 1 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #18 ********
+Ranking input is :
+9
+6
+3
+5 2 6 5 1 5 4 1 1 
+6 4 5 4 5 6 5 4 5 
+1 3 1 6 6 4 6 6 2 
+4 6 4 1 2 3 3 5 6 
+2 5 2 3 4 2 2 2 3 
+3 1 3 2 3 1 1 3 4 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #19 ********
+Ranking input is :
+9
+6
+3
+1 6 6 2 5 4 2 5 6 
+3 4 5 1 2 2 4 2 5 
+5 3 3 6 4 6 6 6 2 
+4 2 2 4 6 5 3 1 4 
+2 5 4 5 1 1 5 3 1 
+6 1 1 3 3 3 1 4 3 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #20 ********
+Ranking input is :
+9
+6
+3
+5 4 1 1 3 3 2 4 6 
+4 2 5 5 2 6 4 1 4 
+2 6 6 3 6 1 1 5 5 
+3 1 3 6 5 5 5 2 2 
+6 5 2 2 4 2 6 3 3 
+1 3 4 4 1 4 3 6 1 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #21 ********
+Ranking input is :
+9
+6
+3
+3 4 2 2 3 2 6 4 2 
+5 5 5 3 6 1 2 5 5 
+6 2 4 4 2 6 4 2 3 
+1 3 6 5 5 5 5 1 4 
+2 6 3 1 1 3 1 3 1 
+4 1 1 6 4 4 3 6 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #22 ********
+Ranking input is :
+9
+6
+3
+2 5 3 2 2 2 6 5 4 
+5 4 4 1 6 5 2 1 2 
+4 2 6 5 5 4 3 3 3 
+3 1 5 6 4 1 1 4 1 
+6 3 1 4 1 3 5 6 6 
+1 6 2 3 3 6 4 2 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #23 ********
+Ranking input is :
+9
+6
+3
+1 5 4 2 5 1 1 1 1 
+3 2 2 4 1 4 5 3 6 
+6 6 3 1 4 6 3 5 3 
+4 4 5 6 6 5 4 2 4 
+2 3 6 3 3 2 6 6 5 
+5 1 1 5 2 3 2 4 2 
+
+
+The IP solution is : 8
+The LP solution is : 8
+The Integrality Gap for Regular LP is 1
+**** Instance #24 ********
+Ranking input is :
+9
+6
+3
+1 2 3 4 4 1 1 2 1 
+2 4 2 2 1 3 3 1 4 
+6 1 5 3 5 4 2 6 3 
+4 5 4 6 2 2 5 4 5 
+5 3 1 5 6 5 6 5 2 
+3 6 6 1 3 6 4 3 6 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #25 ********
+Ranking input is :
+9
+6
+3
+4 5 4 6 4 6 2 5 3 
+3 1 6 1 6 5 6 3 6 
+1 3 2 3 2 4 3 1 4 
+2 6 1 2 1 3 1 2 2 
+5 4 5 4 3 2 5 6 1 
+6 2 3 5 5 1 4 4 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #26 ********
+Ranking input is :
+9
+6
+3
+6 4 6 4 4 6 3 6 6 
+3 3 1 3 2 1 6 2 5 
+2 6 4 1 5 3 2 3 2 
+4 1 2 6 6 5 1 5 1 
+1 5 5 2 1 4 5 4 4 
+5 2 3 5 3 2 4 1 3 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #27 ********
+Ranking input is :
+9
+6
+3
+2 6 2 2 5 3 5 6 6 
+3 3 5 1 6 4 4 3 1 
+5 5 3 3 4 1 3 4 5 
+4 2 1 5 1 2 2 2 4 
+6 1 6 4 2 6 1 5 2 
+1 4 4 6 3 5 6 1 3 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #28 ********
+Ranking input is :
+9
+6
+3
+4 4 4 5 5 3 1 2 4 
+6 2 2 6 1 2 3 5 1 
+5 6 6 3 3 5 2 3 3 
+1 1 3 1 2 1 4 1 5 
+2 5 5 4 6 4 6 4 2 
+3 3 1 2 4 6 5 6 6 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #29 ********
+Ranking input is :
+9
+6
+3
+2 4 2 1 2 5 1 5 3 
+3 5 4 4 5 1 6 4 6 
+1 2 6 2 3 3 2 6 2 
+4 3 1 3 4 4 3 3 1 
+5 6 3 5 6 6 5 2 5 
+6 1 5 6 1 2 4 1 4 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #30 ********
+Ranking input is :
+9
+6
+3
+6 2 5 5 1 2 2 3 1 
+2 1 4 2 4 3 3 6 3 
+3 4 3 3 5 1 4 2 5 
+5 5 6 1 3 4 1 1 4 
+1 6 2 4 6 5 5 5 2 
+4 3 1 6 2 6 6 4 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #31 ********
+Ranking input is :
+9
+6
+3
+5 2 5 1 1 5 5 4 2 
+6 6 1 4 3 6 4 2 5 
+4 1 3 3 4 1 2 6 4 
+3 5 6 6 5 3 6 5 1 
+1 4 4 2 2 4 1 1 3 
+2 3 2 5 6 2 3 3 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #32 ********
+Ranking input is :
+9
+6
+3
+1 4 5 1 5 5 3 2 6 
+5 6 3 6 6 3 5 4 5 
+2 1 1 5 2 1 6 5 4 
+4 5 2 4 3 2 1 1 2 
+3 2 6 2 1 4 4 3 1 
+6 3 4 3 4 6 2 6 3 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #33 ********
+Ranking input is :
+9
+6
+3
+1 5 2 6 1 1 1 1 2 
+4 6 6 1 3 2 4 5 3 
+6 2 4 5 5 3 3 3 1 
+5 4 3 4 4 6 2 4 6 
+2 3 1 3 2 5 5 2 5 
+3 1 5 2 6 4 6 6 4 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #34 ********
+Ranking input is :
+9
+6
+3
+4 4 6 4 5 1 4 1 3 
+3 1 3 6 3 3 5 5 1 
+2 6 2 1 6 6 2 3 2 
+6 3 4 5 4 2 6 2 6 
+1 2 1 3 1 4 3 4 4 
+5 5 5 2 2 5 1 6 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #35 ********
+Ranking input is :
+9
+6
+3
+3 3 3 2 2 3 1 6 1 
+5 6 4 1 4 2 2 1 5 
+1 5 6 6 5 6 3 2 4 
+4 4 2 3 1 1 6 3 3 
+6 2 1 4 6 5 5 5 2 
+2 1 5 5 3 4 4 4 6 
+
+
+The IP solution is : 14
+The LP solution is : 13.5
+The Integrality Gap for Regular LP is 1.03704
+**** Instance #36 ********
+Ranking input is :
+9
+6
+3
+6 4 4 1 3 6 3 3 4 
+2 1 1 2 2 4 5 4 3 
+5 5 6 5 4 1 6 1 5 
+1 6 5 4 1 3 4 2 1 
+4 3 3 6 6 2 2 6 2 
+3 2 2 3 5 5 1 5 6 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #37 ********
+Ranking input is :
+9
+6
+3
+3 3 1 5 3 2 1 6 6 
+5 1 2 2 1 1 4 3 5 
+1 2 6 4 6 6 2 1 1 
+6 4 5 6 2 5 5 2 3 
+4 5 4 3 4 3 3 4 4 
+2 6 3 1 5 4 6 5 2 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #38 ********
+Ranking input is :
+9
+6
+3
+1 4 2 4 1 6 5 4 5 
+2 5 1 5 2 4 3 3 2 
+5 2 3 2 4 5 2 2 6 
+3 1 5 3 5 2 4 1 3 
+6 6 6 6 6 3 1 5 4 
+4 3 4 1 3 1 6 6 1 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #39 ********
+Ranking input is :
+9
+6
+3
+5 5 6 2 2 1 6 1 4 
+6 4 3 6 1 6 2 5 3 
+1 3 5 5 6 2 5 6 6 
+2 6 2 4 4 3 3 4 2 
+4 1 4 3 5 5 4 3 5 
+3 2 1 1 3 4 1 2 1 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #40 ********
+Ranking input is :
+9
+6
+3
+3 1 3 1 1 3 1 2 4 
+4 5 2 5 2 2 6 3 5 
+1 3 4 3 6 1 4 5 3 
+2 4 1 6 3 4 5 4 6 
+5 2 6 4 5 5 3 1 2 
+6 6 5 2 4 6 2 6 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #41 ********
+Ranking input is :
+9
+6
+3
+4 2 5 4 1 3 6 5 5 
+5 4 6 3 3 2 5 6 1 
+1 1 3 6 6 5 3 2 3 
+6 3 1 1 2 6 4 3 4 
+2 5 2 5 5 4 2 4 2 
+3 6 4 2 4 1 1 1 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #42 ********
+Ranking input is :
+9
+6
+3
+2 6 3 1 6 5 3 3 1 
+6 1 5 3 5 6 5 4 4 
+3 4 2 2 2 2 4 2 3 
+5 3 6 5 3 4 1 6 2 
+1 2 1 6 4 3 2 5 6 
+4 5 4 4 1 1 6 1 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #43 ********
+Ranking input is :
+9
+6
+3
+6 3 3 2 1 6 1 6 4 
+3 5 5 1 4 2 5 3 6 
+1 6 2 6 6 3 3 4 3 
+4 1 4 4 2 4 2 1 1 
+5 4 6 5 5 5 4 2 2 
+2 2 1 3 3 1 6 5 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #44 ********
+Ranking input is :
+9
+6
+3
+1 4 5 3 4 5 5 1 2 
+5 2 6 4 3 4 1 3 6 
+2 1 3 5 5 2 3 2 5 
+4 6 2 6 2 3 6 4 1 
+6 3 1 2 6 6 2 5 3 
+3 5 4 1 1 1 4 6 4 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #45 ********
+Ranking input is :
+9
+6
+3
+3 2 5 3 2 3 2 4 3 
+2 3 3 4 6 4 5 2 6 
+4 1 1 2 3 2 4 5 1 
+5 6 6 1 1 6 6 1 4 
+6 5 4 5 5 1 1 6 2 
+1 4 2 6 4 5 3 3 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #46 ********
+Ranking input is :
+9
+6
+3
+6 6 3 5 6 1 2 4 6 
+1 2 4 6 3 5 4 5 2 
+2 1 6 4 1 2 6 1 4 
+4 4 5 1 5 3 5 3 3 
+3 3 2 3 2 4 1 6 5 
+5 5 1 2 4 6 3 2 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #47 ********
+Ranking input is :
+9
+6
+3
+5 6 2 2 2 4 4 4 1 
+1 2 3 3 4 3 2 3 4 
+3 3 5 1 3 2 3 6 6 
+4 5 6 5 6 5 6 5 3 
+2 4 1 4 5 6 5 1 5 
+6 1 4 6 1 1 1 2 2 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #48 ********
+Ranking input is :
+9
+6
+3
+2 3 6 3 4 5 5 4 3 
+3 5 2 4 5 4 3 2 2 
+5 1 4 1 6 1 1 5 5 
+4 4 5 5 2 3 2 3 1 
+1 6 3 2 1 6 4 1 4 
+6 2 1 6 3 2 6 6 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #49 ********
+Ranking input is :
+9
+6
+3
+4 2 4 4 1 6 6 1 4 
+3 4 5 6 6 3 1 4 2 
+1 6 6 1 5 5 4 3 1 
+5 1 1 2 4 1 5 6 3 
+6 3 2 5 2 4 3 2 6 
+2 5 3 3 3 2 2 5 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #50 ********
+Ranking input is :
+9
+6
+3
+6 4 1 1 2 4 2 4 3 
+4 3 3 5 6 6 1 3 2 
+3 5 6 3 1 3 4 5 4 
+5 6 2 6 4 5 6 2 5 
+1 2 4 4 5 1 3 1 1 
+2 1 5 2 3 2 5 6 6 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #51 ********
+Ranking input is :
+9
+6
+3
+3 5 2 2 6 3 3 2 1 
+2 2 4 5 2 2 2 1 2 
+1 3 5 4 4 5 4 4 5 
+5 6 6 6 5 1 6 3 4 
+6 4 1 1 3 6 5 5 3 
+4 1 3 3 1 4 1 6 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #52 ********
+Ranking input is :
+9
+6
+3
+6 1 6 4 2 6 3 2 5 
+1 2 5 2 5 3 2 3 1 
+3 6 3 1 6 2 5 5 4 
+4 3 2 5 1 4 4 1 3 
+2 5 1 3 4 5 1 6 2 
+5 4 4 6 3 1 6 4 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #53 ********
+Ranking input is :
+9
+6
+3
+6 6 5 6 2 5 1 5 5 
+1 5 6 3 4 6 4 3 4 
+5 4 3 4 6 4 6 6 2 
+2 2 1 5 3 2 3 2 1 
+4 3 4 2 5 3 2 4 3 
+3 1 2 1 1 1 5 1 6 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #54 ********
+Ranking input is :
+9
+6
+3
+1 1 5 4 1 6 1 5 5 
+6 5 6 2 5 3 2 1 6 
+5 2 4 6 6 4 4 3 2 
+2 6 3 1 4 2 3 2 4 
+4 3 1 5 3 5 6 6 1 
+3 4 2 3 2 1 5 4 3 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #55 ********
+Ranking input is :
+9
+6
+3
+2 3 6 4 4 2 4 5 6 
+5 5 5 2 2 4 2 6 4 
+1 4 2 3 6 5 1 4 5 
+3 1 4 1 3 3 3 1 3 
+6 6 3 6 5 1 5 2 2 
+4 2 1 5 1 6 6 3 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #56 ********
+Ranking input is :
+9
+6
+3
+6 3 4 3 3 6 1 3 4 
+3 4 5 4 4 5 6 4 2 
+2 5 3 5 6 3 5 1 3 
+5 6 1 1 1 2 2 5 5 
+1 2 6 2 2 1 4 6 1 
+4 1 2 6 5 4 3 2 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #57 ********
+Ranking input is :
+9
+6
+3
+6 3 2 6 1 1 1 6 1 
+1 5 5 5 6 3 2 4 4 
+2 4 4 1 3 5 6 1 2 
+3 2 3 2 2 2 3 2 6 
+5 1 1 4 4 6 5 5 5 
+4 6 6 3 5 4 4 3 3 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #58 ********
+Ranking input is :
+9
+6
+3
+1 4 1 3 2 5 5 4 1 
+5 5 5 4 3 4 1 3 4 
+2 6 3 1 5 2 2 5 5 
+6 1 2 5 1 1 4 1 2 
+4 2 4 2 6 3 3 2 6 
+3 3 6 6 4 6 6 6 3 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #59 ********
+Ranking input is :
+9
+6
+3
+6 2 5 2 1 1 1 6 3 
+5 5 6 6 4 5 3 2 2 
+3 6 3 5 5 2 6 3 4 
+4 4 1 1 3 3 4 5 5 
+1 1 2 3 2 6 5 4 6 
+2 3 4 4 6 4 2 1 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #60 ********
+Ranking input is :
+9
+6
+3
+5 2 3 2 5 2 6 3 6 
+1 6 4 4 2 3 3 4 5 
+6 5 2 6 1 6 2 2 1 
+3 1 6 3 3 5 5 5 4 
+2 4 5 5 6 1 4 6 2 
+4 3 1 1 4 4 1 1 3 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #61 ********
+Ranking input is :
+9
+6
+3
+6 2 1 2 1 3 2 1 5 
+5 5 3 6 5 1 6 2 2 
+3 6 2 3 4 4 3 3 6 
+2 3 4 1 6 2 4 6 4 
+1 1 5 5 3 5 1 5 3 
+4 4 6 4 2 6 5 4 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #62 ********
+Ranking input is :
+9
+6
+3
+6 2 4 3 2 2 5 4 4 
+4 1 6 2 5 3 6 6 1 
+2 5 5 1 4 4 2 5 3 
+1 3 3 6 1 5 1 3 6 
+3 4 2 4 3 1 4 2 2 
+5 6 1 5 6 6 3 1 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #63 ********
+Ranking input is :
+9
+6
+3
+3 1 5 3 5 6 6 3 4 
+5 2 6 5 6 3 2 4 2 
+2 6 2 4 1 5 3 5 5 
+4 5 1 6 4 1 1 6 6 
+1 4 3 2 2 2 5 2 3 
+6 3 4 1 3 4 4 1 1 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #64 ********
+Ranking input is :
+9
+6
+3
+1 4 1 6 4 2 4 4 5 
+4 6 4 3 1 1 5 5 2 
+2 5 6 2 5 5 3 1 1 
+6 1 5 5 3 6 2 3 6 
+5 2 2 4 2 4 1 2 3 
+3 3 3 1 6 3 6 6 4 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #65 ********
+Ranking input is :
+9
+6
+3
+3 5 3 1 5 4 1 1 1 
+5 6 6 3 2 5 4 2 2 
+2 4 4 2 3 6 3 4 6 
+6 2 5 6 4 2 5 5 5 
+4 3 1 5 1 1 2 3 4 
+1 1 2 4 6 3 6 6 3 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #66 ********
+Ranking input is :
+9
+6
+3
+3 4 5 5 6 3 4 5 2 
+1 2 6 3 5 5 6 4 3 
+4 3 3 1 1 4 2 3 5 
+5 5 2 4 3 1 3 1 6 
+2 6 4 6 2 2 5 6 4 
+6 1 1 2 4 6 1 2 1 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #67 ********
+Ranking input is :
+9
+6
+3
+5 3 4 2 5 3 1 4 1 
+1 4 1 6 2 1 5 2 2 
+3 1 3 5 3 4 4 5 3 
+6 6 2 3 6 2 2 6 4 
+2 5 6 1 1 6 6 1 5 
+4 2 5 4 4 5 3 3 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #68 ********
+Ranking input is :
+9
+6
+3
+4 4 5 1 3 4 5 2 6 
+3 1 3 3 4 2 4 3 4 
+5 6 2 4 5 5 2 5 3 
+6 3 4 2 2 6 1 1 1 
+2 2 1 6 1 1 6 4 2 
+1 5 6 5 6 3 3 6 5 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #69 ********
+Ranking input is :
+9
+6
+3
+6 5 4 6 4 2 4 5 5 
+2 6 3 4 2 6 3 4 2 
+5 2 1 2 6 1 2 1 1 
+1 3 6 1 5 4 6 2 6 
+3 1 2 3 3 3 1 3 3 
+4 4 5 5 1 5 5 6 4 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #70 ********
+Ranking input is :
+9
+6
+3
+2 1 1 5 5 6 6 1 5 
+1 6 3 4 3 5 4 6 4 
+6 5 4 2 4 4 3 2 1 
+4 4 2 1 1 3 1 5 3 
+5 2 5 6 2 2 2 4 6 
+3 3 6 3 6 1 5 3 2 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #71 ********
+Ranking input is :
+9
+6
+3
+3 1 6 4 6 3 5 2 6 
+1 2 2 1 3 5 1 6 4 
+2 6 1 2 5 2 3 4 2 
+4 4 5 6 1 4 2 3 3 
+6 3 4 5 4 6 6 5 1 
+5 5 3 3 2 1 4 1 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #72 ********
+Ranking input is :
+9
+6
+3
+3 5 2 6 2 3 2 1 6 
+1 2 5 4 3 4 4 4 5 
+4 1 3 5 4 5 1 6 3 
+2 6 1 2 1 6 5 3 1 
+5 4 4 3 6 1 3 2 4 
+6 3 6 1 5 2 6 5 2 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #73 ********
+Ranking input is :
+9
+6
+3
+4 6 3 6 2 3 3 5 3 
+3 1 6 1 3 6 1 1 1 
+1 5 5 4 6 1 2 2 5 
+2 4 1 3 5 2 4 6 2 
+5 2 2 5 4 5 5 4 4 
+6 3 4 2 1 4 6 3 6 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #74 ********
+Ranking input is :
+9
+6
+3
+6 2 2 3 3 2 5 3 5 
+2 5 6 4 6 6 6 4 3 
+3 3 4 6 4 3 3 2 1 
+1 1 5 1 5 1 4 5 6 
+4 6 3 2 2 5 2 1 2 
+5 4 1 5 1 4 1 6 4 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #75 ********
+Ranking input is :
+9
+6
+3
+5 4 1 4 2 5 6 6 3 
+4 5 3 3 4 2 2 4 6 
+3 6 5 2 1 6 1 2 5 
+6 2 2 5 3 4 5 3 1 
+1 3 4 6 6 3 4 5 4 
+2 1 6 1 5 1 3 1 2 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #76 ********
+Ranking input is :
+9
+6
+3
+1 1 4 5 2 5 1 1 2 
+2 3 6 3 6 2 6 2 4 
+4 6 3 1 4 1 4 4 6 
+6 2 5 6 5 6 5 5 3 
+5 4 1 2 3 3 3 6 5 
+3 5 2 4 1 4 2 3 1 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #77 ********
+Ranking input is :
+9
+6
+3
+2 1 2 2 6 3 2 5 3 
+4 2 5 4 2 5 5 4 4 
+3 3 3 6 3 1 1 6 1 
+1 6 6 3 5 6 3 1 6 
+6 4 1 1 1 4 6 3 5 
+5 5 4 5 4 2 4 2 2 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #78 ********
+Ranking input is :
+9
+6
+3
+1 3 4 2 2 3 1 3 1 
+4 2 2 4 6 4 2 5 6 
+5 1 1 6 1 1 4 1 4 
+3 5 6 3 4 2 5 6 2 
+2 4 5 1 3 6 3 4 3 
+6 6 3 5 5 5 6 2 5 
+
+
+The IP solution is : 7
+The LP solution is : 7
+The Integrality Gap for Regular LP is 1
+**** Instance #79 ********
+Ranking input is :
+9
+6
+3
+2 1 3 4 3 3 5 2 1 
+4 3 4 3 2 1 2 1 5 
+1 6 6 2 4 5 6 6 3 
+6 5 2 5 1 6 4 5 4 
+3 4 1 6 6 2 1 4 2 
+5 2 5 1 5 4 3 3 6 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #80 ********
+Ranking input is :
+9
+6
+3
+1 3 1 2 6 6 3 2 3 
+5 4 5 1 1 3 6 4 5 
+3 2 4 5 2 4 2 6 1 
+4 5 2 6 4 2 1 3 2 
+2 1 3 4 3 5 5 5 6 
+6 6 6 3 5 1 4 1 4 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #81 ********
+Ranking input is :
+9
+6
+3
+5 3 6 2 5 6 2 4 5 
+2 4 2 5 4 2 4 3 4 
+6 6 4 4 2 1 3 5 6 
+4 1 3 3 3 4 5 2 1 
+1 5 1 6 6 5 1 1 2 
+3 2 5 1 1 3 6 6 3 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #82 ********
+Ranking input is :
+9
+6
+3
+6 3 6 2 2 5 3 3 5 
+5 4 1 3 3 4 6 4 6 
+1 5 3 4 5 2 1 6 4 
+3 6 4 1 4 3 5 2 2 
+4 1 5 6 1 1 2 5 1 
+2 2 2 5 6 6 4 1 3 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #83 ********
+Ranking input is :
+9
+6
+3
+5 4 4 3 1 2 5 2 4 
+1 1 2 4 4 3 1 6 3 
+6 5 5 1 2 1 6 4 5 
+2 6 1 6 5 5 3 1 6 
+3 3 6 5 6 6 2 5 1 
+4 2 3 2 3 4 4 3 2 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #84 ********
+Ranking input is :
+9
+6
+3
+3 4 1 6 4 6 1 1 6 
+6 5 6 3 2 1 6 2 3 
+1 1 4 2 1 3 4 6 1 
+4 6 5 5 3 5 2 4 4 
+2 2 2 1 6 2 3 5 5 
+5 3 3 4 5 4 5 3 2 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #85 ********
+Ranking input is :
+9
+6
+3
+1 1 3 6 5 2 4 1 6 
+6 3 2 4 6 4 3 6 3 
+3 2 1 3 3 3 5 2 2 
+2 6 5 5 1 1 2 5 4 
+4 4 6 2 4 6 1 3 5 
+5 5 4 1 2 5 6 4 1 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #86 ********
+Ranking input is :
+9
+6
+3
+1 5 3 4 6 3 1 4 4 
+4 4 6 6 3 5 5 5 3 
+2 3 4 3 5 4 4 2 2 
+5 6 2 1 1 2 3 1 1 
+3 2 5 5 4 1 6 6 5 
+6 1 1 2 2 6 2 3 6 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #87 ********
+Ranking input is :
+9
+6
+3
+6 3 2 2 2 6 2 1 2 
+2 6 6 1 4 5 5 5 6 
+4 1 3 5 1 3 3 2 1 
+5 2 5 6 6 2 4 4 3 
+3 5 4 3 5 4 1 6 4 
+1 4 1 4 3 1 6 3 5 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #88 ********
+Ranking input is :
+9
+6
+3
+4 5 6 2 2 5 4 2 1 
+5 2 2 3 5 2 1 5 6 
+6 4 3 6 3 3 6 1 5 
+2 6 1 4 4 4 5 6 4 
+1 3 5 5 1 6 2 4 2 
+3 1 4 1 6 1 3 3 3 
+
+
+The IP solution is : 13
+The LP solution is : 13
+The Integrality Gap for Regular LP is 1
+**** Instance #89 ********
+Ranking input is :
+9
+6
+3
+4 3 4 5 2 1 2 3 1 
+1 1 3 2 1 5 5 6 4 
+2 2 1 1 6 4 1 5 3 
+3 6 2 3 5 3 6 2 5 
+6 4 5 6 4 2 3 4 2 
+5 5 6 4 3 6 4 1 6 
+
+
+The IP solution is : 11
+The LP solution is : 11
+The Integrality Gap for Regular LP is 1
+**** Instance #90 ********
+Ranking input is :
+9
+6
+3
+2 2 2 4 4 5 1 6 3 
+3 3 4 1 6 1 4 2 6 
+6 1 1 5 5 3 6 3 1 
+1 4 5 6 3 6 2 1 5 
+4 5 3 2 1 2 3 4 4 
+5 6 6 3 2 4 5 5 2 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #91 ********
+Ranking input is :
+9
+6
+3
+1 1 6 5 1 5 1 2 4 
+2 4 4 6 5 3 2 6 3 
+5 3 1 2 4 4 5 3 1 
+4 6 2 3 3 2 6 4 2 
+6 5 3 1 6 1 3 5 6 
+3 2 5 4 2 6 4 1 5 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #92 ********
+Ranking input is :
+9
+6
+3
+4 2 6 2 4 3 6 1 4 
+5 5 4 1 1 4 1 3 6 
+3 3 3 4 5 2 3 2 2 
+2 1 5 3 2 6 5 4 3 
+6 4 1 5 3 1 4 6 1 
+1 6 2 6 6 5 2 5 5 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #93 ********
+Ranking input is :
+9
+6
+3
+4 2 2 6 3 1 4 3 5 
+1 6 4 3 2 5 5 5 1 
+5 4 3 4 5 6 6 6 3 
+2 3 5 2 6 2 2 1 6 
+6 5 1 5 1 3 1 4 4 
+3 1 6 1 4 4 3 2 2 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #94 ********
+Ranking input is :
+9
+6
+3
+2 5 5 5 3 3 3 3 6 
+4 2 4 1 5 4 1 5 2 
+5 3 3 3 1 2 4 6 1 
+6 4 2 2 6 5 2 1 5 
+1 6 1 4 4 6 5 4 4 
+3 1 6 6 2 1 6 2 3 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #95 ********
+Ranking input is :
+9
+6
+3
+3 3 1 3 1 2 6 1 1 
+4 5 4 1 5 1 2 6 4 
+5 2 2 6 4 5 1 2 5 
+1 1 6 4 3 6 5 4 3 
+2 6 5 5 6 3 4 3 6 
+6 4 3 2 2 4 3 5 2 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #96 ********
+Ranking input is :
+9
+6
+3
+6 4 1 3 4 3 5 6 3 
+5 5 5 2 2 6 4 5 6 
+2 1 6 1 1 5 6 1 5 
+4 3 4 6 3 4 3 2 1 
+3 2 2 5 6 1 2 4 2 
+1 6 3 4 5 2 1 3 4 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+**** Instance #97 ********
+Ranking input is :
+9
+6
+3
+1 4 3 4 4 4 5 6 4 
+5 5 1 6 2 5 4 2 2 
+3 2 2 1 1 3 2 3 5 
+4 3 6 5 5 2 6 1 1 
+2 1 4 2 6 1 3 4 3 
+6 6 5 3 3 6 1 5 6 
+
+
+The IP solution is : 12
+The LP solution is : 12
+The Integrality Gap for Regular LP is 1
+**** Instance #98 ********
+Ranking input is :
+9
+6
+3
+3 5 3 5 6 3 6 3 3 
+6 1 2 2 3 6 3 4 4 
+4 4 4 4 4 2 4 2 6 
+5 2 1 3 5 1 2 5 5 
+2 3 5 6 1 4 5 6 1 
+1 6 6 1 2 5 1 1 2 
+
+
+The IP solution is : 9
+The LP solution is : 9
+The Integrality Gap for Regular LP is 1
+**** Instance #99 ********
+Ranking input is :
+9
+6
+3
+3 6 1 5 6 5 1 6 1 
+1 1 6 1 2 6 2 2 3 
+2 3 4 2 1 2 4 1 2 
+5 2 2 4 3 3 5 5 6 
+6 4 3 3 4 1 6 4 4 
+4 5 5 6 5 4 3 3 5 
+
+
+The IP solution is : 10
+The LP solution is : 10
+The Integrality Gap for Regular LP is 1
+
+********* The overal results ******** 
+The worst LP gap found is : 1.03704 and it occurs at instance : 35

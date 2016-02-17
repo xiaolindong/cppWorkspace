@@ -1,0 +1,37 @@
+Ranking input is : 
+9
+6
+3
+4 1 4 4 1 6 6 1 3 
+3 2 3 3 2 5 5 2 1 
+2 3 2 2 3 4 4 3 2 
+1 4 1 1 4 3 3 4 4 
+5 5 5 5 5 1 1 5 5 
+6 6 6 6 6 2 2 6 6 
+
+
+The IP solution is :4
+The LP solution is 4
+The integrality gap for regular LP is :1
+
+optimal dynamic solution is : 7
+The gap for dynamic is : 1.75
+
+Ranking input is : 
+9
+6
+3
+2 1 2 2 3 6 6 3 3 
+1 2 1 1 2 5 5 2 2 
+3 3 3 3 1 4 4 1 1 
+4 4 4 4 4 1 1 4 4 
+5 5 5 5 5 2 2 5 5 
+6 6 6 6 6 3 3 6 6 
+
+
+The IP solution is :3
+The LP solution is 3
+The integrality gap for regular LP is :1
+
+optimal dynamic solution is : 6
+The gap for dynamic is : 2

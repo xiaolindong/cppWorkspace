@@ -1,0 +1,164 @@
+./data/test/N-t2d150.24
+arg = 2
+start the experiment
+number of candidates are : 150
+Regular LP OBJ Value is  = 70323
+Initial solution creation started
+Percentage of constraints fixed : 78.5244
+The initial sol is 69261
+value after preprocess : 69261
+The best solution found is : 69261
+the running time is : 834
+### The Iterative LP Roundig is ending 
+Time is = 647
+OBJ Value is  = 69239
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d150.25
+arg = 2
+start the experiment
+number of candidates are : 150
+Regular LP OBJ Value is  = 74026
+Initial solution creation started
+Percentage of constraints fixed : 79.7867
+The initial sol is 73218
+value after preprocess : 73220
+The best solution found is : 73220
+the running time is : 3566
+### The Iterative LP Roundig is ending 
+Time is = 301
+OBJ Value is  = 73023
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.01
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 94716
+The best solution found is : 144774
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 306
+OBJ Value is  = 146132
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.02
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 88102
+The best solution found is : 140754
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 305
+OBJ Value is  = 142566
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.03
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 87944
+The best solution found is : 138654
+the running time is : 12
+### The Iterative LP Roundig is ending 
+Time is = 304
+OBJ Value is  = 139632
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.04
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 94464
+The best solution found is : 147630
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 306
+OBJ Value is  = 149170
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.05
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 102962
+The best solution found is : 148014
+the running time is : 12
+### The Iterative LP Roundig is ending 
+Time is = 306
+OBJ Value is  = 148694
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.06
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 93610
+The best solution found is : 138778
+the running time is : 12
+### The Iterative LP Roundig is ending 
+Time is = 305
+OBJ Value is  = 139592
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.07
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 106594
+The best solution found is : 147936
+the running time is : 13
+### The Iterative LP Roundig is ending 
+Time is = 305
+OBJ Value is  = 148132
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.08
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 91572
+The best solution found is : 147454
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 305
+OBJ Value is  = 148042
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.09
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 89574
+The best solution found is : 139228
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 306
+OBJ Value is  = 140190
+*************************************************************
+*************************************************************
+This is the end 
+./data/test/N-t2d200.10
+arg = 2
+start the experiment
+number of candidates are : 200
+value after preprocess : 94828
+The best solution found is : 148174
+the running time is : 11
+### The Iterative LP Roundig is ending 
+Time is = 304
+OBJ Value is  = 147990
+*************************************************************
+*************************************************************
+This is the end 
